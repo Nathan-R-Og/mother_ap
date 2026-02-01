@@ -1,0 +1,4 @@
+#!/bin/bash
+python3 build.py "$@"
+python3 tools/checksum.py "$@"
+python3 tools/archipeladiff.py
